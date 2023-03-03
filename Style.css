@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("s.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+#main {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  text-shadow: 2px 2px red;
+  text-decoration: underline;
+  text-indent: 170px;
+  border-radius: 0 0 5px 5px;
+}
+
+.welcome-text {
+  text-shadow: 2px 2px black;
+  text-decoration: underline;
+  text-align: center;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  margin: 10% 10%;
+}
