@@ -15,7 +15,7 @@ if (isset($_POST['register'])) {
   $result = mysqli_query($con, $sql);
   if($result){
     $_SESSION['admin'] = $name;
-      header("location:Login.php");
+      header("location:shop.php");
   }else{
     echo "<script>alert('error')</script>";
   }

@@ -1,0 +1,23 @@
+.cont{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 228, 196, 0.5);
+}
+.tt,.form{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 25px;
+    /* line-height: 40px; */
+    border-radius: 15px;
+}
+input{
+    font-size: 20px;
+    border: 0;
+    background-color: transparent;
+}
+form:hover{
+    background-color: rgba(255, 192, 203, 0.5);
+}

@@ -39,9 +39,10 @@
         <div class="topnav">
             <a class="active atag" href="Index.php">Home</a>
             <?php
+            // session_start();
             $myusername = isset($_SESSION['admin'])?$_SESSION['admin']:"" ;
                 if($myusername!=""){
-                    echo "<a href='Logout.php' class='atag'>" . $myusername . "<a>";
+                    echo "<a href='class.php' class='atag'>" . $myusername . "<a>";
                 }else{
                     echo "<a href='Login.php' class='atag'> Login <a>";
                 }

@@ -1,0 +1,8 @@
+*{
+    background-color: white;
+}
+.formlogout{
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+}

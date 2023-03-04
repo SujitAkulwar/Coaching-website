@@ -8,6 +8,8 @@ if (isset($_POST['login'])) {
   $email = stripcslashes($email);
   $pass = stripcslashes($password);
 
+  $_SESSION['admin'] = $email;
+
   $email = mysqli_real_escape_string($con, $email);
   $pass = mysqli_real_escape_string($con, $password);
 
@@ -16,11 +18,11 @@ if (isset($_POST['login'])) {
   $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
   $count = mysqli_num_rows($result);
     if ($count == 1 and $email != "") {
-      $_SESSION['admin'] = $name;
-      header("location:Index.php");
+      header("location:shop.php");
     } else {
     echo "<script>alert('error')</script>";
   }
+  
 }
 ?>
 
