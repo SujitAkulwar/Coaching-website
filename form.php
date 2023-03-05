@@ -52,7 +52,7 @@ if (isset($_POST['fillform'])) {
 
 <head>
     <title>Classes</title>
-    <link rel="stylesheet" href="shop.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="form.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -65,29 +65,36 @@ if (isset($_POST['fillform'])) {
             <h6 class="t">fill the form </h6>
         </div>
         <form class="classform" method="post">
-            <div>
-                <!-- <label>Full Name : </label> -->
+            <div class="classformelement">
+               <p> Student name :</p>
                 <input type="text" placeholder="Full Name" name="name" class="name" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>age :</p>
                 <input type="text" placeholder="age" name="age" class="age" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>address :</p>
                 <input type="text" placeholder="address" name="address" class="address" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>school name :</p>
                 <input type="text" placeholder="school name" name="schoolname" class="schoolname" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>Mobile no : </p>
                 <input type="text" placeholder="Mobile no" name="mobilenos" class="mobilenos" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>Email id :</p>
                 <input type="text" placeholder="emailid" name="emailid" class="emailid" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>std :</p>
                 <input type="text" placeholder="std" name="std" class="std" required>
             </div>
-            <div>
+            <div class="classformelement">
+                <p>medium :</p>
                 <input type="text" placeholder="medium" name="medium" class="medium" required>
             </div>
             <div class="checkboxdiv">

@@ -1,7 +1,7 @@
 <?php 
   include('connection.php');
 session_start();
-    $myusername = isset($_SESSION['admin'])?$_SESSION['admin']:"" ;
+    $myusername = isset($_SESSION['admin'])?$_SESSION['admin']:"a" ;
 ?>
 
 <!DOCTYPE html>

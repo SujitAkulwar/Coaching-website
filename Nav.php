@@ -40,9 +40,11 @@
             <a class="active atag" href="Index.php">Home</a>
             <?php
             // session_start();
-            $myusername = isset($_SESSION['admin'])?$_SESSION['admin']:"" ;
-                if($myusername!=""){
-                    echo "<a href='class.php' class='atag'>" . $myusername . "<a>";
+            $myusername = isset($_SESSION['admin'])?$_SESSION['admin']:"a" ;
+                if($myusername!="a"){
+                    echo "<a href='class.php' class='atag'>" . $myusername ;
+                // echo "<a><a href='cart.php' class='atag'> Cart <a>";
+                    echo "<a><a href='class.php' class='atag'> classes <a>";
                 }else{
                     echo "<a href='Login.php' class='atag'> Login <a>";
                 }

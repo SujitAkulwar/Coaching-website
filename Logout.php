@@ -2,7 +2,7 @@
 // include("connection.php");
 // session_start();
 if(isset($_POST["logout"])){
-    $myusername = "";
+    $myusername = "a";
     // exit();
     session_destroy();
     header("Location: Index.php");
